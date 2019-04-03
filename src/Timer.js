@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Emoji from 'react-emoji-render';
+
 
 class Timer extends Component {
 
@@ -35,6 +37,23 @@ class Timer extends Component {
 
         <p>Seconds</p>
 
+          <br />
+          <p style={{marginTop: '40px'}}>
+            Meanwhile, check out my site here to see other projects i have built: <br />
+          </p>
+
+          <p><Emoji text=":point_down:" /></p>
+
+          <a className="grey-text text-lighten-4 right App-link"
+          href="https://kalibbala.com/"
+          target="_blank"
+          rel="noopener noreferrer">
+            Richard Kalibbala Site
+          </a>
+
+          <br />
+
+           <p classID="spce"><Emoji text="This ❤️ sentence includes :+1: a variety of emoji types :)" /></p>
 
       </div>
       );
